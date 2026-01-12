@@ -1,0 +1,10 @@
+services:
+  spark:
+    image: apache/spark:3.4.1
+    container_name: spark-container
+    volumes:
+      - ../:/app
+    working_dir: /app
+    command: sleep infinity
+
+
