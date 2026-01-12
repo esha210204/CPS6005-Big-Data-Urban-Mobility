@@ -1,0 +1,4 @@
+
+# Ignore generated outputs
+data/processed/
+*.parquet
