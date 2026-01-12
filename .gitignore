@@ -1,4 +1,5 @@
-
-# Ignore generated outputs
 data/processed/
 *.parquet
+
+# Ignore exported dashboard data
+dashboards/data_out/
